@@ -1,0 +1,4 @@
+name: HeavenRTP
+version: '1.0'
+main: com.yech.heavenRTP.HeavenRTP
+api-version: '1.21'
