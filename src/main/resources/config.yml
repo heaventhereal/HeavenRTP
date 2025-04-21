@@ -1,8 +1,15 @@
-range: 500
-cooldown: 60
-
 messages:
   only-players: "This command can only be used by players."
   cooldown: "You must wait {time} seconds before using this command again."
   teleported: "You have been teleported to a random location!"
   actionbar-being-teleported: "&aTeleporting to x: {x}, y: {y}, z: {z}..."
+  config-reloaded: "negro ho reloadato la config"
+  no-perms: "You don't have enough perms to use this command!"
+settings:
+  safe-blocks:
+    - GRASS_BLOCK
+    - DIRT
+    - SAND
+    - SNOW_BLOCK
+  range: 500
+  cooldown: 60

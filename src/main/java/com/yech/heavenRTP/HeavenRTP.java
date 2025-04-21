@@ -18,8 +18,10 @@ public final class HeavenRTP extends JavaPlugin {
     @Override
     public void onEnable() {
         RTPCommand rtpCommand = new RTPCommand(this);
+        RTPReloadCommand rtpReloadCommand = new RTPReloadCommand(this);
 
         registerCommand(rtpCommand);
+        registerCommand(rtpReloadCommand);
 
         getConfig().options().copyDefaults(true);
         saveConfig();
